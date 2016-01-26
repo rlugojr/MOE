@@ -22,6 +22,7 @@ import com.google.common.collect.ImmutableSet;
 import com.google.common.io.Files;
 import com.google.devtools.moe.client.Ui.Task;
 import com.google.devtools.moe.client.testing.TestingModule;
+import com.google.testing.testsize.MediumTest;
 
 import junit.framework.TestCase;
 
@@ -30,6 +31,7 @@ import java.io.IOException;
 
 import javax.inject.Singleton;
 
+@MediumTest
 public class SystemFileSystemTest extends TestCase {
 
   public void testFindFiles() throws Exception {
